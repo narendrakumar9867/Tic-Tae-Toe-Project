@@ -35,11 +35,33 @@ body {
     font-size: 8vmin;
 }
 
-.reset-btn {
+#reset-btn {
     padding: 1.5rem;
     border: none;
     border-radius: 3rem;
     font-size: 1.25rem;
     background-color: rgb(36, 4, 4);
     color: red;
+}
+
+#new-btn {
+    padding: 1.5rem;
+    border: none;
+    border-radius: 3rem;
+    font-size: 1.25rem;
+    background-color: rgb(36, 4, 4);
+    color: red;
+}
+
+#msg {
+    color: white;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 30vmin;
+}
+
+.hide {
+    display: none;
 }
